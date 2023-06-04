@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Quizes from "./pages/Quizes";
+import Roadmap from './pages/Roadmap';
 
 
 export const App = () => {
@@ -17,6 +18,9 @@ export const App = () => {
     <Router>
       <Route path='/Home'>
       <Home/>
+      </Route>
+      <Route path='/Roadmap'>
+      <Roadmap/>
       </Route>
       <Route path='/Quizes'>
         <Quizes/>
